@@ -1,8 +1,8 @@
 # README for Q&A for CEO Letters to Stakeholders
 Team Members:
-Wesley Barnes
-Brandon Charletta
-Micah Richardson
+Wesley Barnes, 
+Brandon Charletta, 
+Micah Richardson, &
 Luisa Schenk
 
 ## Project Overview
