@@ -1,4 +1,4 @@
-# Look Up Letters (LUL) - Q&A for CEO Letters to Stakeholders
+# Look Up Letters (LUL) - Q&A for Stakeholder Letters
 Team Members:
 Wesley Barnes, 
 Brandon Charletta, 
