@@ -9,10 +9,10 @@ Luisa Schenk
 ### Problem Statement
 CEO letters to their stakeholders are often lengthy and may lose the reader's interest. Stakeholders need a tool to quickly extract relevant information without having to read the entire content. This project develops a search tool that retrieves pertinent information from CEO letters, enhancing efficiency for traders, stakeholders, and the general public.
 
-## Data
+### Data
 The dataset consists of 357 CEO letters in text format, stored in a JSONL file. Each letter typically contains up to 20,000 characters, including the CEO's name, company name, and letter title. These letters are published annually at the start of the company's reporting period. The dataset was processed to ignore common stop words and normalize text to lowercase to maintain uniformity and relevance.
 
-## Model Procedure
+### Model Procedure
 We utilized the BM25 algorithm for information retrieval due to its effectiveness in handling sparse and lengthy texts. The model processes preprocessed text data to rank and retrieve the most relevant sections of text in response to user queries.
 
 ## Technical Details
