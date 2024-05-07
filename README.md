@@ -25,4 +25,13 @@ The project is structured in a Jupyter notebook with clear Markdown headers and 
 ### Web Application
 The model was served with a flask application and its corresponding html and css files. This site returns the highest scored BM25 score to the user when they ask a question about any one of the CEO letters; ensuring that the user does not need to go through the pain of reading the letters in their entirety.
 
+## Reproducing LUL
+- Open a new terminal and create and activate a new virtual environment:
+  ```conda create -n searchvenv python=3.11```
+  ```conda activate searchvenv```
+- Once inside the virtual environment install the necessary packages.
+  ```pip install -r requirements.txt```
+- Once packages are installed, run the flask app in the terminal by:
+  ```python app.py```
 
+Finally, click the link in the terminal to bring you to your local host where the app is stored. Type in a phrase, company, or CEO name to see the results. 
