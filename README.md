@@ -27,11 +27,20 @@ The model was served with a flask application and its corresponding html and css
 
 ## Reproducing LUL
 - Open a new terminal and create and activate a new virtual environment:
-  ```conda create -n searchvenv python=3.11```
-  ```conda activate searchvenv```
+  ```
+  conda create -n searchvenv python=3.11
+  ```
+
+  ```
+  conda activate searchvenv
+  ```
 - Once inside the virtual environment install the necessary packages.
-  ```pip install -r requirements.txt```
+  ```
+  pip install -r requirements.txt
+  ```
 - Once packages are installed, run the flask app in the terminal by:
-  ```python app.py```
+  ```
+  python app.py
+  ```
 
 Finally, click the link in the terminal to bring you to your local host where the app is stored. Type in a phrase, company, or CEO name to see the results. 
